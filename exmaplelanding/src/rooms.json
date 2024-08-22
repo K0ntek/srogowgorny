@@ -1,0 +1,78 @@
+[
+    {
+      "video": "",
+      "image": "https://drive.google.com/thumbnail?id=1LHxgcl9Ac9-Uens4XWYEU1o0reakhKuJ&sz=w1000",
+      "room": "sypialnia",
+      "size": "16.75m2",
+      "desc": "To nowoczesna sypialnia z eleganckim wystrojem. Na zdjęciach widać łóżko z białą pościelą i ciemnym zagłówkiem, ustawione przy białej ścianie z czarnym akcentem. Obok łóżka znajduje się mała roślina na stoliku nocnym. Duże okna z białymi ramami wpuszczają dużo naturalnego światła, a drzwi szafy z lustrami odbijają część pokoju.",
+      "images":[
+        {
+          "image": "https://drive.google.com/thumbnail?id=1LHxgcl9Ac9-Uens4XWYEU1o0reakhKuJ&sz=w1000"
+        },
+        {
+          "image": "https://drive.google.com/thumbnail?id=1bDNABlG7h5AJt3nJtQMOqkEgp625dQRG&sz=w1000"
+        },
+        {
+          "image": "https://drive.google.com/thumbnail?id=1ZHGPR5D_42DD7BPXJNHaPFwzD8cq0vv2&sz=w1000"
+        }
+      ]
+    },
+    {
+      "video": "",
+      "image": "https://drive.google.com/thumbnail?id=1aZg7VQ-uEBXdCEoJ64D6fTE4NzTwdJsT&sz=w1000",
+      "room": "salon",
+      "size": "36.5m2",
+      "desc": "Ten salon to elegancka i przytulna przestrzeń, urządzona w nowoczesnym stylu z dominacją naturalnych materiałów, takich jak drewno. Duże okna wprowadzają do wnętrza mnóstwo naturalnego światła, tworząc jasną i otwartą atmosferę, jednocześnie łącząc przestrzeń z zewnętrznym tarasem. Komfortowe, jasne sofy oraz stylowe dodatki, jak szklany stolik kawowy, nadają wnętrzu przytulności, idealnej do relaksu w otoczeniu natury.",
+      "images":[
+        {
+          "image": "https://drive.google.com/thumbnail?id=1se3njrIfV6hkghEB8GlpWiLpK_0H0eNL&sz=w1000"
+        },
+        {
+          "image": "https://drive.google.com/thumbnail?id=1aZg7VQ-uEBXdCEoJ64D6fTE4NzTwdJsT&sz=w1000"
+        },
+        {
+            "image": "https://drive.google.com/thumbnail?id=16H2wOePVgTnb2bMX6xbUV9deB3qrA_Lg&sz=w1000"
+        },
+        {
+            "image": "https://drive.google.com/thumbnail?id=1fHfnOCDgAVY39145kaPkhwNgo2TfXd0P&sz=w1000"
+        }
+      ]
+    },
+    {
+      "video": "",
+      "image": "https://drive.google.com/thumbnail?id=1z6eCEyunT2cZC8nIspsVpC_oOVp7PTC3&sz=w1000",
+      "room": "kuchnia",
+      "size": "10.5m2",
+      "desc": "To nowoczesna kuchnia o eleganckim designie. Po lewej stronie znajdują się drewniane szafki i półki z wbudowanym oświetleniem. W centrum kuchni jest długi wyspa z czarnym blatem, wyposażona w zlew i nowoczesną baterię. Po prawej stronie znajduje się jadalnia z drewnianym stołem i czarnymi krzesłami. Duże okna zapewniają dużo naturalnego światła i widok na zieleń na zewnątrz. Ściany są ciemnoszare, co kontrastuje z ciepłymi tonami drewna.",
+       "images":[
+        {
+          "image": "https://drive.google.com/thumbnail?id=1QpDt4-__TyI637payMEQ1hzy35Vm6XpR&sz=w1000"
+        },
+        {
+          "image": "https://drive.google.com/thumbnail?id=1LIA0U4wo_hsguzDi1VvMUjZEf4JcHyYf&sz=w1000"
+        },
+        {
+          "image": "https://drive.google.com/thumbnail?id=1z6eCEyunT2cZC8nIspsVpC_oOVp7PTC3&sz=w1000"
+        },
+        {
+          "image": "https://drive.google.com/thumbnail?id=1xFpmt8JvP8vcJHT6YzYSf2OO6ffcBEAi&sz=w1000"
+        }
+      ]
+    },
+    {
+      "video": "",
+      "image": "https://drive.google.com/thumbnail?id=1I-RSdmj3qURO7eip3_Am7YeSiciz2vBi&sz=w1000",
+      "room": "łazienka",
+      "size": "4.83m2",
+      "desc": "To nowoczesna łazienka z eleganckim wystrojem. Długi korytarz prowadzi do dobrze oświetlonej przestrzeni z drewnianymi elementami, dużymi płytkami na podłodze i ścianach oraz szklaną kabiną prysznicową po prawej stronie. Po lewej stronie znajduje się strefa umywalkowa z dwoma zlewami, lustrami nad każdym zlewem i dużą ilością miejsca na blacie. Projekt jest elegancki i współczesny, z neutralnymi kolorami, które tworzą elegancką atmosferę.",
+       "images":[
+        {
+          "image": "https://drive.google.com/thumbnail?id=1I-RSdmj3qURO7eip3_Am7YeSiciz2vBi&sz=w1000"
+        },
+        {
+           "image": "https://drive.google.com/thumbnail?id=1v-h6lBM5w-dh4vL-YY1BaicAxQhr86cF&sz=w1000"
+        }
+      ]
+    }
+  
+  ]
