@@ -14,7 +14,7 @@ const Footer = () => {
      <div className=' py-5 pb-7 md:flex justify-between space-y-4 md:space-y-0 max-w-[1400px] px-10 mx-auto'>
 
             <div className=' text-black'>
-                <p className=' relative top-1 font-[600] font-montserrat text-black text-[14px] text-center'> © 2024 UI <span className=' font-[700] text-[rgb(126,206,255)]'><a href="https://jakubkontek.onrender.com">JAKUB KONTEK</a></span> - All rights reserved</p>
+                <p className=' relative top-1 font-[600] font-montserrat text-black text-[14px] text-center'> © 2024 UI <span className=' font-[700] text-[#ff8b43]'><a href="https://jakubkontek.onrender.com">JAKUB KONTEK</a></span> - All rights reserved</p>
             </div>
 
             <div className=''>
@@ -23,7 +23,7 @@ const Footer = () => {
                 <div className=' gap-2 flex flex-wrap mx-auto font-mont font-[500] justify-center relative top-1'>
                     {navElements.map((element, i)=>{
                         return(
-                            <p className=' font-mont font-[700] hover:text-[rgb(126,197,241)] cursor-pointer transition-all duration-150'>{element.name}</p>
+                            <p className=' font-mont font-[700] hover:text-[#ff8b43] cursor-pointer transition-all duration-150'>{element.name}</p>
                         )
                     })}
                 </div>
@@ -36,7 +36,7 @@ const Footer = () => {
                 <div className=' flex gap-2 mx-auto justify-center'>
                     {socials.map((socialElement, i)=>{
                         return(
-                            <a href={socialElement.link} key={i} className=' text-xl text-black hover:text-[#c2703e] transition-all duration-150'>{socialElement.icon}</a>
+                            <a href={socialElement.link} key={i} className=' text-xl text-black hover:text-[#ff8b43] transition-all duration-150'>{socialElement.icon}</a>
                         )
                     })}
                 </div>

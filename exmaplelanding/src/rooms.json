@@ -73,6 +73,45 @@
            "image": "https://drive.google.com/thumbnail?id=1v-h6lBM5w-dh4vL-YY1BaicAxQhr86cF&sz=w1000"
         }
       ]
+    },
+    {
+      "video": "",
+      "image": "https://drive.google.com/thumbnail?id=1N8XsE1YXqMHcyS3IU1PuVfiyPsgFnqFf&sz=w1000",
+      "room": "sauna",
+      "size": "24.83m2",
+      "desc": "To nowoczesna sauna z eleganckim wystrojem. Wyposażona w drewniane podłogi i dekoracyjne ściany, oferuje przestronne miejsce na odpoczynek. Na tarasie znajduje się dodatkowa przestrzeń do relaksu. To idealne miejsce, aby cieszyć się ciepłem i spokojem.",
+       "images":[
+        {
+          "image": "https://drive.google.com/thumbnail?id=1N8XsE1YXqMHcyS3IU1PuVfiyPsgFnqFf&sz=w1000"
+        },
+        {
+          "image": "https://drive.google.com/thumbnail?id=16-cnzQSzbhEao2mPwDOJSvVn_aKgw_EC&sz=w1000"
+        },
+        {
+          "image": "https://drive.google.com/thumbnail?id=1FJ9wVR9PoxJHzVOAKgXYdjME1m3Vtgxd&sz=w1000"
+        },
+        {
+           "image": "https://drive.google.com/thumbnail?id=1YHHe5vC_oIrjF9Quct_TCHg8JKtNpNNu&sz=w1000"
+        },
+        {
+          "image": "https://drive.google.com/thumbnail?id=1-g7JMcqwU-I3BpIASn3rxWGNfTRXqfRI&sz=w1000"
+        }
+      ]
+    },
+    {
+      "video": "",
+      "image": "https://drive.google.com/thumbnail?id=1Ezb6B6RGoEKSOhEjq5PzHXY09Ns8famv&sz=w1000",
+      "room": "pokój",
+      "size": "19.78m2",
+      "desc": "To zdjęcie przedstawia przytulny strych z pochylonymi sufitami. Po lewej stronie znajduje się biała ściana, a drewniane belki dodają rustykalnego uroku. Po prawej stronie widoczna jest pusta drewniana półka na książki. Podłoga jest drewniana, co pasuje do ciepłego charakteru tego miejsca.",
+       "images":[
+        {
+          "image": "https://drive.google.com/thumbnail?id=1Ezb6B6RGoEKSOhEjq5PzHXY09Ns8famv&sz=w1000"
+        },
+        {
+           "image": "https://drive.google.com/thumbnail?id=1gM92SZJFGaWfuIWefvnpZZtXoDdSn2_y&sz=w1000"
+        }
+      ]
     }
   
   ]

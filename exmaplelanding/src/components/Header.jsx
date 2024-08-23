@@ -47,6 +47,7 @@ const Header = () => {
         <div className="grid lg:grid-cols-[3fr_2fr] mb-5 gap-4">
 
 <div className=' space-y-4 relative'>
+{/* <p className=' relative top-7 font-mont font-[700] mt-1 text-[12px] lg:ml-[47px] text-[rgb(103,93,92)]'>cena: 1.700.000 PLN</p> */}
     <h1 className=' text-5xl md:text-8xl font-mont font-[700] text-center lg:text-start lg:ml-10 z-[98] headingTitle'> DOM U BRAM <span className='text-[rgb(232,208,205)]'>BIESZCZAD</span></h1>
 
         {/* <PiApproximateEqualsBold className=' text-4xl absolute right-[10%] top-[15%] z-[-1] text-[rgb(255,110,58)]'/>
@@ -64,9 +65,10 @@ const Header = () => {
     <div className="relative top-[50%] translate-y-[-50%]">
                 <div className=' grid sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 gap-4'>
                     <div>
-                        <div className=' relative top-[50%] translate-y-[-50%]'>
+                        <div className=' rounded-3xl overflow-hidden relative top-[50%] translate-y-[-50%]'>
                             <PiApproximateEqualsBold className=' text-4xl headingContentElement'/>
                             <h1 className=' font-fig font-[700] text-2xl headingContentElement'>LUKSUSOWE WNĘTRZE</h1>
+                            
                             <div className=' bg-[rgb(238,238,238)] shadow-[0px_0px_10px_0px] shadow-black/20 p-3 rounded-3xl mt-4'>
                                 {pros.map((element, i)=>(
                                     <div className=' flex justify-between'>
@@ -144,7 +146,7 @@ const Header = () => {
                         <div>
                             <div className=''>
                                 <p className=' font-fig font-[700] text-[22px] xl:text-2xl'>Idealne miejsce na relaks i podziwianie górskich krajobrazów.</p>
-                                    <Link to='AboutSectionOne' spy={true} smooth={true}>
+                                    <Link to='terrace' spy={true} smooth={true} offset={-60}>
                                             <button className=' font-fig font-[600] z-[99] bg-zinc-950 text-xl mt-5 rounded-full py-1 px-2 text-white hover:tracking-wider transition-all duration-150'> czytaj dalej</button>
                                     </Link>
                             </div>
@@ -154,8 +156,8 @@ const Header = () => {
             <div className='headingContent bg-[#0a0a0a] text-white rounded-[40px] p-6 min-h-[300px]'>
                 <PiStarFourFill className='my-2 text-xl'/>
                 {/* <h1 className=' font-mont font-[700] text-3xl upp'>Lorem, ipsum dolor.</h1> */}
-                <p className=' font-fig font-[700] text-[22px] xl:text-2xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odit?</p>
-                    <Link to='AboutSectionTwo' spy={true} smooth={true}>
+                <p className=' font-fig font-[700] text-[22px] xl:text-2xl'>Detale tworzą rzeczy wielkie</p>
+                    <Link to='AboutSectionTwo' spy={true} smooth={true} offset={-60}>
                         <button className=' font-fig font-[600] z-[99] bg-white text-xl mt-5 rounded-full py-1 px-2 text-zinc-950 hover:tracking-wider transition-all duration-150'> czytaj dalej</button>
                     </Link>
             </div>

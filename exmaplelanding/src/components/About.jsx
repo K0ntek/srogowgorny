@@ -9,6 +9,7 @@ import ScrollTrigger from 'gsap/ScrollTrigger';
 import { PiStarFourFill, PiStarFourThin } from "react-icons/pi";
 import { LuWaves } from "react-icons/lu";
 import rooms from '../rooms.json'
+import { Link } from 'react-scroll';
 
 const About = () => {
   const responsive = {
@@ -103,19 +104,19 @@ const About = () => {
                     </Carousel>
                       <div className=' mt-5'>
                       {/* <h2 className='text-[rgba(255,110,58)] font-mont font-[600] text-2xl'>subheading</h2> */}
-                          <h1 className='interiorHorizontalAnimation text-[#000000] w-full sm:w-4/5 lg:w-2/3 font-fig font-[400] text-5xl lg:text-6xl tracking-tight'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                          <h1 className='interiorHorizontalAnimation text-[#000000] w-full sm:w-4/5 lg:w-2/3 font-fig font-[400] text-5xl lg:text-6xl tracking-tight'>Zobacz oferowaną nieruchomość z bliska!</h1>
                           <div className="flex gap-2 mt-4 interiorHorizontalAnimation">
 
                             <div className=' border-[1px] border-black rounded-full px-5 py-2 cursor-default hover:bg-zinc-950 hover:text-white transition-all duration-150'>
-                                <p className=' font-mont font-[500]'>modern</p>
+                                <p className=' font-mont font-[500]'>nowoczesny</p>
                             </div>
 
                             <div className=' border-[1px] border-black rounded-full px-5 py-2 cursor-default hover:bg-zinc-950 hover:text-white transition-all duration-150'>
-                                <p className=' font-mont font-[500]'>cozy</p>
+                                <p className=' font-mont font-[500]'>wygodny</p>
                             </div>
 
                             <div className=' border-[1px] border-black rounded-full px-5 py-2 cursor-default hover:bg-zinc-950 hover:text-white transition-all duration-150'>
-                                <p className=' font-mont font-[500]'>spacious</p>
+                                <p className=' font-mont font-[500]'>przestronny</p>
                             </div>
 
                           </div>
@@ -125,9 +126,9 @@ const About = () => {
 
                   <div className='interiorVerticalAnimationWrapper'>
                       <div className=' relative top-[50%] translate-y-[-50%] md:w-1/2 lg:w-3/4 lg:left-1/4 xl:w-4/5 xl:left-1/5'>
-                          <p className=' text-start font-fig font-[600] text-lg interiorVerticalAnimation'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum repudiandae culpa, voluptatem harum quasi enim dicta! Perspiciatis error sequi minima, aut eius, fugiat explicabo soluta, quam veniam autem obcaecati.</p>
+                          <p className=' text-start font-fig font-[600] text-lg interiorVerticalAnimation'>Dom jak i jego wnętrze jest wykonane z najwyższej jakości materiałów i świetnie komponujących się ze sobą kolorów- od bieli, po szarość oraz brąz, kończąc na czarnym akcencie.</p>
                       
-                            <h1 className=' font-fig font-[600] text-5xl mt-2 interiorVerticalAnimation'>Lorem, ipsum dolor.</h1>
+                            <h1 className=' font-fig font-[600] text-4xl mt-2 interiorVerticalAnimation'>Bezpieczna lokalizacja z dala od zgiełku miasta.</h1>
 
                           <div className=' mt-5'>
                           <div className="flex mt-6 interiorVerticalAnimation">
@@ -138,7 +139,7 @@ const About = () => {
                                 </div>
                               </div>
                             ))}
-                            <p className=' relative top-[10px] font-mont font-[600] interiorVerticalAnimation' style={{marginLeft: `calc(45px*${rooms.length})`}}>all rooms in a view</p>
+                            <p className=' relative top-[13px] text-[12px] font-mont font-[600] interiorVerticalAnimation' style={{marginLeft: `calc(45px*${rooms.length})`}}> wszystkie pomieszczenia</p>
                           </div>
                       </div>
 
@@ -150,7 +151,7 @@ const About = () => {
                 <RoomsCarousel/>
 
 
-              <div className=' sm:w-3/4 lg:w-2/3 mt-[20px] mx-auto'>
+              <div className=' sm:w-3/4 lg:w-2/3 mt-[20px] mx-auto' id='terrace'>
               <h1 className=' text-center font-fig font-[400] text-4xl mb-10 mt-[100px]'>Przestronny taras</h1>
 
                <div className=' space-y-6 md:space-y-0'>

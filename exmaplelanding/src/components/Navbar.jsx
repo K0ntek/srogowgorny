@@ -4,20 +4,20 @@ import { Link } from 'react-scroll';
 
 export const navElements = [
     {
-        link: 'header',
-        name: 'Home'
-    },
-    {
         link: 'interior',
-        name: 'Interior'
+        name: 'Wnętrze'
     },
     {
         link: 'about',
-        name: 'About'
+        name: 'O ofercie'
+    },
+    {
+        link: 'assets',
+        name: 'Materiały'
     },
     {
         link: 'contact',
-        name: 'Contact'
+        name: 'Kontakt'
     },
 ]
 
@@ -46,8 +46,8 @@ const Navbar = () => {
             <div className=" line line3 w-7 h-[3px] bg-black transition-all duration-200 group-hover:w-4 group-hover:ml-3"></div>
         </div>
 
-                <div className=' justify-center mx-auto sm:mx-0 sm:justify-start'>
-                    <Link to='header' spy={true} smooth={true}>
+                <div className='navElement hover:text-[rgb(255,149,73)] transition-all duration-150 justify-center mx-auto sm:mx-0 sm:justify-start'>
+                    <Link to='header' offset={-60} spy={true} smooth={true}>
                     <FaStarOfLife className=' text-4xl z-[99] cursor-pointer'/>
                     </Link>
                 </div>
@@ -57,7 +57,7 @@ const Navbar = () => {
                         {navElements.map((element, i)=>{
                             return(
                                 <li className='navElement font-mont font-[700] hover:text-[rgb(255,149,73)] cursor-pointer transition-all duration-150'>
-                                    <Link to={element.link} spy={true} smooth={true}>
+                                    <Link to={element.link} offset={-60} spy={true} smooth={true}>
                                         <p className=''>{element.name}</p>
                                     </Link>
                                 </li>

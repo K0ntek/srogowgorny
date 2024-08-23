@@ -20,10 +20,10 @@ function App() {
       <Header/> 
      <About/>
      <div id="about">
-      <SectionOne/>
+      {/* <SectionOne/> */}
       <SectionTwo/>
-      <Assets/>
      </div>
+     <Assets/>
      <Contact/>
      <Footer/>
    </div>
