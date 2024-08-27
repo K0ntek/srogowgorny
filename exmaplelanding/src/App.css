@@ -43,7 +43,7 @@ body{
     }
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1279px) {
   .roomsImageBackgroundWrapper{
     aspect-ratio: 16/9;
   }
@@ -53,4 +53,38 @@ body{
   .roomsImageBackgroundWrapper{
     aspect-ratio: 1/1;
   }
+}
+
+img{
+  pointer-events: none;
+}
+
+.react-multi-carousel-dot{
+  position: relative;
+  top: 15px;
+  height: 0;
+  width: 10px;
+  border-width: 1px;
+  border-color: black;
+  margin: 0 6px;
+  border-radius: 10px;
+  transition: .5s;
+  overflow: hidden;
+}
+
+.react-multi-carousel-dot button {
+  border-radius: 0;
+  height: 0;
+  background: transparent;
+  opacity: 0;
+  border: 0;
+  display: none;
+
+}
+
+.react-multi-carousel-dot--active {
+  border-color:#c25816;
+  width: 30px;
+  transition: .5s;
+  border-width: 1.5px;
 }

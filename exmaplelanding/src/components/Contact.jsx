@@ -3,25 +3,25 @@ import { useState, useRef } from 'react'
 // import { Link } from 'react-scroll';
 import { FaInstagram } from "react-icons/fa";
 import { BsFacebook } from 'react-icons/bs'
-import { FaLinkedinIn } from "react-icons/fa";
 import rooms from '../rooms.json'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { PiWaveformThin } from "react-icons/pi";
+import { FaTiktok } from "react-icons/fa6";
 
 export const socials = [
   { 
       icon: <BsFacebook />,
-      link: 'https://www.facebook.com/profile.php?id=100009894456441'
+      link: 'https://www.facebook.com/piotr.brzyski.144'
   },
   { 
       icon: <FaInstagram />,
-      link: 'https://www.instagram.com/k0ntek_/'
+      link: 'https://www.instagram.com/brzyskip00/'
   },
-  { 
-      icon: <FaLinkedinIn />,
-      link: 'https://www.linkedin.com/in/jakub-kontek-33909b2a1/'
-  },
+//   { 
+//       icon: <FaTiktok />,
+//       link: ''
+//   },
 ]
 
 const Contact = ({option, price}) => {
@@ -109,7 +109,7 @@ const Contact = ({option, price}) => {
                                     {/* <FaPhoneAlt className=' mt-2 text-xl rounded-full text-[rgb(126,206,255)]'/> */}
                                     <p className='text-xl mt-1'>Zadzwoń!</p>
                                 </div>
-                                <p className=' ml-3'> +48 123 456 789</p>
+                                <p className=' ml-3'> +48 797 886 210</p>
                         </div>
 
                         <div>
@@ -124,7 +124,7 @@ const Contact = ({option, price}) => {
                                 {socials.map((socialElement, i)=>{
                                 return(
                                     <div key={i}>
-                                    <a href={socialElement.link}  className=' text-2xl text-black hover:text-[rgb(126,206,255)] transition-all duration-150'> {socialElement.icon}</a>
+                                    <a href={socialElement.link}  className=' text-2xl text-black hover:text-[rgb(255,125,65)] transition-all duration-150'> {socialElement.icon}</a>
                                     </div>
                                 )
                                 })}

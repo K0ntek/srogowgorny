@@ -56,11 +56,11 @@ const RoomsCarousel = () => {
                                                 <Carousel
                                                     responsive={responsive}
                                                     infinite={true}
-                                                    arrows={false}
-                                                    swipeable={true}
-                                                    draggable={true}
+                                                    arrows={true}
+                                                    swipeable={false}
+                                                    draggable={false}
                                                     autoPlay={true}
-                                                    autoPlaySpeed={5000}
+                                                    autoPlaySpeed={3000}
                                                     className=" relative ">
                                                         {/* {rooms[images].map((roomElement, i)=>(
                                                              <img src={roomElement.image} alt="image" className=' object-cover w-2/3 rounded-3xl mx-auto aspect-square' style={{pointerEvents: 'none'}} />

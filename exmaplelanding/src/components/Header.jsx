@@ -22,8 +22,8 @@ const Header = () => {
             prosNumber: '7 pom.'
         },
         {
-            prosElement: 'Garaż',
-            prosNumber: ' 2-stanowiskowy'
+            prosElement: 'Cena',
+            prosNumber: ' 1.699.000 PLN'
         },
     ]
 
@@ -136,11 +136,24 @@ const Header = () => {
 
         <div className="grid lg:grid-cols-[5fr_2fr] gap-2 md:gap-5">
         <div className='headingContent overflow-y-hidden rounded-[40px] md:rounded-[60px] max-h-[630px] shadow-[0px_0px_10px_0px] shadow-black/20'>
-        <img src="https://drive.google.com/thumbnail?id=1rIcFYo9hrRdKaXCKrLgSUaspKOjvhFcw&sz=w1000" alt="headerImage" className=' aspect-square sm:aspect-video xl:aspect-auto h-full w-full object-cover relative top-[50%] translate-y-[-50%] '/>
+        <Carousel
+            responsive={responsive}
+            infinite={true}
+            autoPlaySpeed={3000}
+            autoPlay={true}
+            swipeable={true}
+            draggable={true}
+            arrows={false}
+            className=" relative">
+               <img src="https://drive.google.com/thumbnail?id=1rIcFYo9hrRdKaXCKrLgSUaspKOjvhFcw&sz=w1000" alt="headerImage" className=' aspect-square sm:aspect-video xl:aspect-auto h-full w-full object-cover relative top-[50%] translate-y-[-50%] '/>
+               <img src="https://drive.google.com/thumbnail?id=1KSL5l-I_3SEdZWfZdWAUwBkKlU6GbaLq&sz=w1000" alt="headerImage" className=' aspect-square sm:aspect-video xl:aspect-auto h-full w-full object-cover relative top-[50%] translate-y-[-50%] '/>
+               <img src="https://drive.google.com/thumbnail?id=1_00ycncsOEbndTmR8CCv0Zp2tH1vOD6V&sz=w1000" alt="headerImage" className=' aspect-square sm:aspect-video xl:aspect-auto h-full w-full object-cover relative top-[50%] translate-y-[-50%] '/>
+               {/* <img src="https://drive.google.com/thumbnail?id=1JwEv5_GVI-WMV2zoWLS07Js-W2TNbRKK&sz=w1000" alt="headerImage" className=' aspect-square sm:aspect-video xl:aspect-auto h-full w-full object-cover relative top-[50%] translate-y-[-50%] '/> */}
+            </Carousel>
         </div>
 
         <div className='sm:grid-cols-2 lg:grid-cols-1 grid gap-2 md:gap-5 h-full '>
-            <div className='headingContent bg-[rgb(238,238,238)] rounded-[40px] p-6 min-h-[300px]'>
+            <div className='headingContent bg-gradient-to-r from-[rgb(238,238,238)] to-[rgb(247,247,247)]  rounded-[40px] p-6 min-h-[300px]'>
                         <FaStarOfLife className='my-2 text-xl '/>
                         {/* <h1 className=' font-mont font-[700] text-3xl'>Lorem, ipsum dolor.</h1> */}
                         <div>
@@ -153,7 +166,7 @@ const Header = () => {
                         </div>   
             </div>
 
-            <div className='headingContent bg-[#0a0a0a] text-white rounded-[40px] p-6 min-h-[300px]'>
+            <div className='headingContent bg-gradient-to-r from-[#161616] to-black text-white rounded-[40px] p-6 min-h-[300px]'>
                 <PiStarFourFill className='my-2 text-xl'/>
                 {/* <h1 className=' font-mont font-[700] text-3xl upp'>Lorem, ipsum dolor.</h1> */}
                 <p className=' font-fig font-[700] text-[22px] xl:text-2xl'>Detale tworzą rzeczy wielkie</p>
