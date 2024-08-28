@@ -135,7 +135,7 @@ const Header = () => {
         </div>
 
         <div className="grid lg:grid-cols-[5fr_2fr] gap-2 md:gap-5">
-        <div className='headingContent overflow-y-hidden rounded-[40px] md:rounded-[60px] max-h-[630px] shadow-[0px_0px_10px_0px] shadow-black/20'>
+        <div className='headingContent overflow-y-hidden rounded-[40px] md:rounded-[60px]  shadow-[0px_0px_10px_0px] shadow-black/20'>
         <Carousel
             responsive={responsive}
             infinite={true}
@@ -144,10 +144,10 @@ const Header = () => {
             swipeable={true}
             draggable={true}
             arrows={false}
-            className=" relative">
-               <img src="https://drive.google.com/thumbnail?id=1rIcFYo9hrRdKaXCKrLgSUaspKOjvhFcw&sz=w1000" alt="headerImage" className=' aspect-square sm:aspect-video xl:aspect-auto h-full w-full object-cover relative top-[50%] translate-y-[-50%] '/>
-               <img src="https://drive.google.com/thumbnail?id=1KSL5l-I_3SEdZWfZdWAUwBkKlU6GbaLq&sz=w1000" alt="headerImage" className=' aspect-square sm:aspect-video xl:aspect-auto h-full w-full object-cover relative top-[50%] translate-y-[-50%] '/>
-               <img src="https://drive.google.com/thumbnail?id=1_00ycncsOEbndTmR8CCv0Zp2tH1vOD6V&sz=w1000" alt="headerImage" className=' aspect-square sm:aspect-video xl:aspect-auto h-full w-full object-cover relative top-[50%] translate-y-[-50%] '/>
+            className=" h-full object-cover">
+               <img src="https://drive.google.com/thumbnail?id=1rIcFYo9hrRdKaXCKrLgSUaspKOjvhFcw&sz=w1000" alt="headerImage" className=' aspect-square sm:aspect-auto sm:max-h-[700px] sm:min-h-[630px] h-full w-full object-cover relative top-[50%] translate-y-[-50%] '/>
+               <img src="https://drive.google.com/thumbnail?id=1KSL5l-I_3SEdZWfZdWAUwBkKlU6GbaLq&sz=w1000" alt="headerImage" className=' aspect-square sm:aspect-auto sm:max-h-[700px] sm:min-h-[630px] h-full w-full object-cover relative top-[50%] translate-y-[-50%] '/>
+               <img src="https://drive.google.com/thumbnail?id=1_00ycncsOEbndTmR8CCv0Zp2tH1vOD6V&sz=w1000" alt="headerImage" className=' aspect-square sm:aspect-auto sm:max-h-[700px] sm:min-h-[630px] h-full w-full object-cover relative top-[50%] translate-y-[-50%] '/>
                {/* <img src="https://drive.google.com/thumbnail?id=1JwEv5_GVI-WMV2zoWLS07Js-W2TNbRKK&sz=w1000" alt="headerImage" className=' aspect-square sm:aspect-video xl:aspect-auto h-full w-full object-cover relative top-[50%] translate-y-[-50%] '/> */}
             </Carousel>
         </div>

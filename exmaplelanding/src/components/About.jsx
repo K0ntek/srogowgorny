@@ -179,7 +179,7 @@ const About = () => {
                   <p className=' mb-4 font-fig font-[600]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, quae.</p>
                   </div> */}
 
-                  <p className=' mb-4 font-fig font-[600] text-end mr-10 mt-2'>Przestrzeń do relaksu w otoczeniu natury</p>
+                  <p className=' mb-4 font-fig font-[600] text-end mr-4 md:mr-10 relative top-7 md:top-2'>Przestrzeń do relaksu w otoczeniu natury</p>
 
                <div className="grid grid-cols-[30%_70%] gap-2 hover:grid-cols-[70%_30%] mt-2 transition-all duration-500 aspect-video">
                     {/* https://drive.google.com/thumbnail?id=1-Vb9tqD1InJyFod2W5wSavBj0HhkwL6w&sz=w1000 */}

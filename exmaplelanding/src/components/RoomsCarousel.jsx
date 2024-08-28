@@ -66,11 +66,11 @@ const RoomsCarousel = () => {
                                                              <img src={roomElement.image} alt="image" className=' object-cover w-2/3 rounded-3xl mx-auto aspect-square' style={{pointerEvents: 'none'}} />
                                                         ))} */}
                                                         {roomElement.images.map((image, i)=>(
-                                                            <img src={image.image} alt="image" className=' object-cover w-2/3 rounded-3xl mx-auto aspect-square h-full shadow-[0px_0px_30px_0px] shadow-[rgba(104,54,32)]' style={{pointerEvents: 'none'}} />
+                                                            <img src={image.image} alt="image" className=' object-cover w-3/4 sm:w-2/3 rounded-3xl mx-auto aspect-square h-full shadow-[0px_0px_30px_0px] shadow-[rgba(104,54,32)]' style={{pointerEvents: 'none'}} />
                                                         ))}
                                                     </Carousel>
                                                 {/* <img src={roomElement.image} alt="image" className=' object-cover w-2/3 rounded-3xl mx-auto aspect-square' style={{pointerEvents: 'none'}} /> */}
-                                                <p className=' font-fig font-thin text-white text-lg w-4/5 mx-auto text-justify '>{roomElement.desc}</p>
+                                                <p className=' font-fig font-thin text-white text-lg w-11/12 sm:w-4/5 mx-auto text-justify '>{roomElement.desc}</p>
                                             </div>
                                     </div>
                                     </div>

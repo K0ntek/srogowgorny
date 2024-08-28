@@ -93,7 +93,7 @@ const Contact = ({option, price}) => {
                     <div className=' p-4'>
                         <div>
                             <h1 className=' font-montserrat text-3xl font-[500] text-[rgb(0,0,0)]'>Skontaktuj się ze mną</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, blanditiis?</p>
+                            <p>I umów na prezentacje tego wyjątkowego miejsca!</p>
                         </div>
 
                             <div>
@@ -112,13 +112,12 @@ const Contact = ({option, price}) => {
                                 <p className=' ml-3'> +48 797 886 210</p>
                         </div>
 
-                        <div>
+                        {/* <div>
                                 <div className="flex space-x-2">
-                                    {/* <TiPin className=' mt-2 text-xl rounded-full text-[rgb(126,206,255)]'/> */}
                                     <p className='text-xl mt-1'>Odwiedź </p>
                                 </div>
                                 <p className=' ml-3'> Srogów Górny - 151</p>
-                        </div>
+                        </div> */}
 
                         <div className="flex gap-3 pt-3">
                                 {socials.map((socialElement, i)=>{
@@ -141,8 +140,8 @@ const Contact = ({option, price}) => {
                     <div className=" mb-6">
                     {/* <h2 className=' font-montserrat text-xl font-[600] tracking-tight
                                             text-[rgb(126,206,255)]'>CONTACT</h2> */}
-                    <h1 className=' text-4xl font-montserrat font-[500] text-black'>Want to get in touch?</h1>
-                    <p className=' font-montserrat font-[500]'>Leave us your message and we'll respond within 24 hours!</p>
+                    <h1 className=' text-4xl font-montserrat font-[500] text-black'>Masz pytania?</h1>
+                    <p className=' font-montserrat font-[500]'>Śmiało napisz, a ja postaram się pomóc!</p>
                     </div>
 
                     <div className=' text-black'>
