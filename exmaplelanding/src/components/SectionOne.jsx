@@ -11,7 +11,7 @@ const SectionOne = () => {
     <div className=' w-full min-h-screen bg-zinc-950 text-white' id='AboutSectionOne'>
         <div className="max-w-[1500px] px-6 mx-auto py-[100px] ">
             <div className="w-full md:w-4/5 mx-auto space-y-10">
-                    <h1 className=' text-center font-mont font-[600] text-5xl w-3/4 mx-auto'>Samowystarczalny i <span className=' text-[#9b9b9b]'>ekologiczny</span> dom.</h1>
+                    <h1 className=' text-center font-mont font-[600] text-5xl w-3/4 mx-auto'>Samowystarczalny i&nbsp;<span className=' text-[#9b9b9b]'>ekologiczny</span> dom.</h1>
                     <img src="https://drive.google.com/thumbnail?id=11mu_OgtblIviONsOxcwzX255gJdCeyux&sz=w1000" alt="image" className='w-full shadow-[0px_0px_10px_0px] shadow-[rgba(160,86,42,.2)] mx-auto aspect-square sm:aspect-[18/9] object-cover rounded-[40px]' />
                 
                     <div className="flex justify-around">
@@ -39,10 +39,10 @@ const SectionOne = () => {
                     <div className=''>
                         <h1 className=' w-1/2 mx-auto mb-4 text-center font-mont font-[600] text-3xl text-white'>Jakie korzyści niesie ze sobą wybór domu zasilanego energią słoneczną?</h1>
                         <div className=' text-center sm:w-3/4 lg:w-1/2 font-mont font-[600] text-xl text-[silver]'>
-                            <p> Energia słoneczna jest przekształcana w prąd elektryczny, który zasila nasze urządzenia. Dzięki temu możemy korzystać z energii bez obciążania sieci elektroenergetycznej. To nie tylko oszczędność, ale także redukcja emisji CO2. </p>
+                            <p> Energia słoneczna jest przekształcana w&nbsp;prąd elektryczny, który zasila nasze urządzenia. Dzięki temu możemy korzystać z&nbsp;energii bez obciążania sieci elektroenergetycznej. To nie tylko oszczędność, ale także redukcja emisji CO2. </p>
                         </div>
                         <div className=' text-center sm:w-3/4 lg:w-1/2 relative sm:left-1/4 mt-4 lg:left-1/3 font-mont font-[600] text-xl'>
-                            <p>Ogrzewanie gazowe to kolejny element, który wpływa na komfort życia w naszym domu. W chłodniejsze dni zapewnia ciepło, a jego wydajność pozwala na oszczędności. Połączenie energii słonecznej i ogrzewania gazowego to harmonijne rozwiązanie, które łączy nowoczesność z ekologią. To krok, który przynosi korzyści zarówno nam, jak i środowisku naturalnemu.</p>
+                            <p>Ogrzewanie gazowe to kolejny element, który wpływa na komfort życia w&nbsp;naszym domu. W&nbsp;chłodniejsze dni zapewnia ciepło, a&nbsp;jego wydajność pozwala na oszczędności. Połączenie energii słonecznej i&nbsp;ogrzewania gazowego to harmonijne rozwiązanie, które łączy nowoczesność z&nbsp;ekologią. To krok, który przynosi korzyści zarówno nam, jak i&nbsp;środowisku naturalnemu.</p>
                         </div>
                     </div>
                 

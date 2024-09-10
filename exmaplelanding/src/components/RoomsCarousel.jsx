@@ -22,6 +22,18 @@ const RoomsCarousel = () => {
             scrollTrigger:{trigger:'.interiorCarouselWrapper', start: 'top 60%'}})
       },[])
 
+      function preventOrphans(text) {
+        // Wyrażenie regularne do znalezienia jednoliterowych spójników na końcu linii
+        const regex = /(\s)([izaowIZAOW])(\s)/g;
+    
+        // Zamiana spójników znajdujących się na końcu linii na nową linię
+        const newText = text.replace(regex, (match, spaceBefore, conjunction, spaceAfter) => {
+            return spaceBefore.trimEnd() + ' \n ' + conjunction + '\xa0';
+        });
+    
+        return newText;
+    }
+
     return (
     <div className='w-full'>
 
@@ -51,7 +63,7 @@ const RoomsCarousel = () => {
 
                                     <div className="p-[16px] relative z-[99] top-[50%] translate-y-[-50%] h-full">
                                     <div className=' bg-zinc-950/70 w-full sm:w-2/3 lg:w-2/5 h-full rounded-3xl relative'>
-                                            <div className=' text-center mx-auto p-5 space-y-3'>
+                                            <div className=' text-center mx-auto sm:p-5 space-y-3'>
                                                 <h1 className=' font-mont font-[500] text-white text-3xl uppercase tracking-wider '>{roomElement.room}</h1>
                                                 <Carousel
                                                     responsive={responsive}
@@ -70,7 +82,7 @@ const RoomsCarousel = () => {
                                                         ))}
                                                     </Carousel>
                                                 {/* <img src={roomElement.image} alt="image" className=' object-cover w-2/3 rounded-3xl mx-auto aspect-square' style={{pointerEvents: 'none'}} /> */}
-                                                <p className=' font-fig font-thin text-white text-lg w-11/12 sm:w-4/5 mx-auto text-justify '>{roomElement.desc}</p>
+                                                <p className=' font-fig font-thin text-white text-lg w-11/12 mx-auto text-justify '>{preventOrphans(roomElement.desc)}</p>
                                             </div>
                                     </div>
                                     </div>

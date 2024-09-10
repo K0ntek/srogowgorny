@@ -57,6 +57,18 @@ const About = () => {
     },
   ]
 
+  function preventOrphans(text) {
+    // Wyrażenie regularne do znalezienia jednoliterowych spójników na końcu linii
+    const regex = /(\s)([izaowIZAOW])(\s)/g;
+
+    // Zamiana spójników znajdujących się na końcu linii na nową linię
+    const newText = text.replace(regex, (match, spaceBefore, conjunction, spaceAfter) => {
+        return spaceBefore.trimEnd() + ' \n ' + conjunction + '\xa0';
+    });
+
+    return newText;
+}
+
 
   return (
     <div id='interior' className=''>
@@ -126,9 +138,9 @@ const About = () => {
 
                   <div className='interiorVerticalAnimationWrapper'>
                       <div className=' relative top-[50%] translate-y-[-50%] md:w-1/2 lg:w-3/4'>
-                          <p className=' text-start font-fig font-[600] text-lg interiorVerticalAnimation'>Dom jak i jego wnętrze jest wykonane z najwyższej jakości materiałów i świetnie komponujących się ze sobą kolorów- od bieli, po szarość oraz brąz, kończąc na czarnym akcencie.</p>
+                          <p className=' text-start font-fig font-[600] text-lg interiorVerticalAnimation'>Dom jak i&nbsp;jego wnętrze jest wykonane z&nbsp;najwyższej jakości materiałów i&nbsp;świetnie komponujących się ze sobą kolorów- od bieli, po szarość oraz brąz, kończąc na czarnym akcencie.</p>
                       
-                            <h1 className=' font-fig font-[600] text-4xl mt-2 interiorVerticalAnimation'>Bezpieczna lokalizacja z dala od zgiełku miasta.</h1>
+                            <h1 className=' font-fig font-[600] text-4xl mt-2 interiorVerticalAnimation'>Bezpieczna lokalizacja z&nbsp;dala od zgiełku miasta.</h1>
 
                           <div className=' mt-5'>
                           <div className="flex mt-6 interiorVerticalAnimation">
@@ -162,7 +174,7 @@ const About = () => {
                         <div>
                           <PiStarFourFill className='text-[rgb(255,125,65)] text-xl'/>
                         </div>
-                    <p className=' font-fig font-[500] text-xl'>Taras z widokiem na Bieszczady to miejsce, skąd można podziwiać malownicze, zielone wzgórza i lasy, oferujące spokojne i zapierające dech w piersiach krajobrazy. To idealna przestrzeń do relaksu w otoczeniu natury.</p>
+                    <p className=' font-fig font-[500] text-xl'>Taras z&nbsp;widokiem na Bieszczady to miejsce, skąd można podziwiać malownicze, zielone wzgórza i&nbsp;lasy, oferujące spokojne i&nbsp;zapierające dech w&nbsp;piersiach krajobrazy. To idealna przestrzeń do relaksu w&nbsp;otoczeniu natury.</p>
                   </div>
                 </div>
                 {/* https://drive.google.com/file/d/1b7FpQWPMoAUB988vOkcxsmnjV2GDbs8Y */}
@@ -179,7 +191,7 @@ const About = () => {
                   <p className=' mb-4 font-fig font-[600]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, quae.</p>
                   </div> */}
 
-                  <p className=' mb-4 font-fig font-[600] text-end mr-4 md:mr-10 relative top-7 md:top-2'>Przestrzeń do relaksu w otoczeniu natury</p>
+                  <p className=' mb-4 font-fig font-[600] text-end mr-4 md:mr-10 relative top-7 md:top-2'>Przestrzeń do relaksu w&nbsp;otoczeniu natury</p>
 
                <div className="grid grid-cols-[30%_70%] gap-2 hover:grid-cols-[70%_30%] mt-2 transition-all duration-500 aspect-video">
                     {/* https://drive.google.com/thumbnail?id=1-Vb9tqD1InJyFod2W5wSavBj0HhkwL6w&sz=w1000 */}
@@ -194,7 +206,7 @@ const About = () => {
                         <h1 className=' mx-auto text-center text-4xl justify-center text-[rgb(104,54,32)]'>{prosElement.icon}</h1>
                       </div>
 
-                      <p className=' mx-auto w-5/6 justify-center text-start text-md font-mont font-[600]'>{prosElement.desc}</p>
+                      <p className=' mx-auto w-5/6 justify-center text-center lg:text-start text-md font-mont font-[600]'>{preventOrphans(prosElement.desc)}</p>
                     </div>
                   ))}
                 </div>

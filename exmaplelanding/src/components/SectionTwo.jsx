@@ -112,7 +112,7 @@ const SectionTwo = () => {
 
                     <div className=' w-[90%] md:w-3/4 relative left-[10%] md:left-1/4 md:ml-5 text-center'>
                         {/* <PiWaveformThin className=' ml-5 text-5xl text-[rgba(160,86,42)]'/> */}
-                        <p className=' font-fig font-[600] text-xl text-[rgba(173,89,40)]'>Każdy szczegół ma znaczenie – to one decydują o doskonałości. Staranność w każdym etapie tworzenia składają się na efekt, który wyróżnia się jakością i elegancją.</p>
+                        <p className=' font-fig font-[600] text-xl text-[rgba(173,89,40)]'>Każdy szczegół ma znaczenie – to one decydują o&nbsp;doskonałości. Staranność w&nbsp;każdym etapie tworzenia składają się na efekt, który wyróżnia się jakością i&nbsp;elegancją.</p>
                     </div>
 
 

@@ -55,7 +55,7 @@ const Header = () => {
 
         <div>
             <div className=' px-6 sm:w-3/4 mx-auto lg:mx-0'>
-                <p className='text-start text-md ml-6 font-fig font-[800] headingTitle'>Odkryj spokój wśród majestatycznych gór i dziewiczej przyrody. Każda chwila tutaj to zaproszenie do przygody w nieskażonym krajobrazie. Ucieknij tam, gdzie horyzonty sięgają nieskończoności, a każdy oddech przynosi czystość.</p>
+                <p className='text-start text-md ml-6 font-fig font-[800] headingTitle'>Odkryj spokój wśród majestatycznych gór i&nbsp;dziewiczej przyrody. Każda chwila tutaj to zaproszenie do przygody w&nbsp;nieskażonym krajobrazie. Ucieknij tam, gdzie horyzonty sięgają nieskończoności, a&nbsp;każdy oddech przynosi czystość.</p>
                 {/* text-[rgb(255,110,58)] */}
             </div>
         </div>
@@ -158,7 +158,7 @@ const Header = () => {
                         {/* <h1 className=' font-mont font-[700] text-3xl'>Lorem, ipsum dolor.</h1> */}
                         <div>
                             <div className=''>
-                                <p className=' font-fig font-[700] text-[22px] xl:text-2xl'>Idealne miejsce na relaks i podziwianie górskich krajobrazów.</p>
+                                <p className=' font-fig font-[700] text-[22px] xl:text-2xl'>Idealne miejsce na relaks i&nbsp;podziwianie górskich krajobrazów.</p>
                                     <Link to='terrace' spy={true} smooth={true} offset={-60}>
                                             <button className=' font-fig font-[600] z-[99] bg-zinc-950 text-xl mt-5 rounded-full py-1 px-2 text-white hover:tracking-wider transition-all duration-150'> czytaj dalej</button>
                                     </Link>
